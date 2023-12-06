@@ -1,2 +1,2 @@
 # Praticando_Logica
- Resolvendo desafios de lógica de progamação
+ Resolvendo Problemas Lógicos com código 
