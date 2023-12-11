@@ -1,13 +1,15 @@
+//Dada a string, verifique se é um palíndromo.
 
-
-function Solucao(inputString) {
-    let str_reverse = inputString.split('').reverse()
-    let str_revese_usavel = str_reverse.join('')
-    
-    if(inputString === str_revese_usavel)
-        return true
-    else
-        return false
+function Solucao(inputArray, elemToReplace, substitutionElem) {
+    const newArray = []
+    for(let a = 0; a < inputArray.length; a++){
+        if(inputArray[a] === elemToReplace){
+            newArray.push(substitutionElem)
+        }else{
+            newArray.push(inputArray[a])
+        }
+    }
+    return newArray
 }
 
 //testes

@@ -1,5 +1,3 @@
-//Dado um array de inteiros, encontre o par de elementos adjacentes que possui o maior produto e retorne esse produto.
-
 function Solucao(inputArray) {
     if (inputArray.length < 2) {
         return null; 

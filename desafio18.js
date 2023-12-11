@@ -1,5 +1,3 @@
-//Dada uma string, descubra se seus caracteres podem ser reorganizados para formar um palíndromo.
-
 function Solucao(inputString) {
     var stringWithoutSpaces = inputString.split(' ').join('');
 

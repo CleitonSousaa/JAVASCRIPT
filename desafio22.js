@@ -1,36 +1,38 @@
-
-
-function Solucao(param1, param2) {
-    return param1 + param2
+function Solucao(inputArray) {
+    for(var n=1;;n++)
+        if(inputArray.every(x=>x%n))
+            return n
 }
 
 //testes
-if(Solucao(1,2) === 3)
+if(Solucao([5, 3, 6, 7, 9]) === 4)
     console.log('Passou')
 else
     console.log('Falhou')
 
-if(Solucao(0,1000) === 1000)
+if(Solucao([2, 3]) === 4)
     console.log('Passou')
 else
     console.log('Falhou')
 
-if(Solucao(2,-39) === -37)
+if(Solucao([1, 4, 10, 6, 2]) === 7)
     console.log('Passou')
 else
     console.log('Falhou')
 
-if(Solucao(99,100) === 199)
+if(Solucao([1000, 999]) === 6)
     console.log('Passou')
 else
     console.log('Falhou')
 
-if(Solucao(-100,100) === 0)
+if(Solucao([19, 32, 11, 23]) === 3)
     console.log('Passou')
 else
     console.log('Falhou')
 
-if(Solucao(-1000,-1000) === -2000)
+if(Solucao([5, 8, 9, 13, 14]) === 6)
     console.log('Passou')
 else
     console.log('Falhou')
+
+
