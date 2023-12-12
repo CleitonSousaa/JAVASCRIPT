@@ -1,34 +1,39 @@
-function Solucao(param1, param2) {
-    return param1 + param2
+function Solucao(n, firstNumber) {
+    return (n/2+firstNumber)%n
 }
 
-//testes
-if(Solucao(1,2) === 3)
+
+if(Solucao(10, 2) === 7)
     console.log('Passou')
 else
     console.log('Falhou')
 
-if(Solucao(0,1000) === 1000)
+if(Solucao(10, 7) === 2)
     console.log('Passou')
 else
     console.log('Falhou')
 
-if(Solucao(2,-39) === -37)
+if(Solucao(4, 1) === 3)
     console.log('Passou')
 else
     console.log('Falhou')
 
-if(Solucao(99,100) === 199)
+if(Solucao(6, 3) === 0)
     console.log('Passou')
 else
     console.log('Falhou')
 
-if(Solucao(-100,100) === 0)
+if(Solucao(18, 6) === 15)
     console.log('Passou')
 else
     console.log('Falhou')
 
-if(Solucao(-1000,-1000) === -2000)
+if(Solucao(12, 10) === 4)
+    console.log('Passou')
+else
+    console.log('Falhou')
+
+if(Solucao(18, 5) === 14)
     console.log('Passou')
 else
     console.log('Falhou')

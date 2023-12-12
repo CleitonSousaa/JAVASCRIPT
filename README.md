@@ -70,8 +70,25 @@
 
 ## Desafio 23
 > Ontem à noite você festejou um pouco demais. Agora há uma foto sua em preto e branco que está prestes a se tornar viral! Você não pode permitir que isso arruíne sua reputação, então você deseja aplicar o algoritmo de desfoque de caixa à foto para ocultar seu conteúdo. Os pixels na imagem de entrada são representados como números inteiros. O algoritmo distorce a imagem de entrada da seguinte maneira: Cada pixel x na imagem de saída tem um valor igual ao valor médio dos valores dos pixels do quadrado 3 × 3 que tem seu centro em x, incluindo o próprio x. Todos os pixels na borda de x são então removidos. Retorne a imagem desfocada como um número inteiro, com as frações arredondadas para baixo.
+
 ## Desafio 24
 > No popular jogo Campo Minado você tem um tabuleiro com algumas minas e as células que não contêm uma mina possuem um número que indica o número total de minas nas células vizinhas. Começando com alguns arranjos de minas, queremos criar uma configuração de jogo Campo Minado.
+
 ## Desafio 25
 > Dado um array de inteiros, substitua todas as ocorrências de elemToReplace por replacementElem.
+
+## Desafio 26
+> Verifique se todos os dígitos do número inteiro fornecido são pares.
+
+## Desafio 27
+> Os nomes de variáveis corretos consistem apenas em letras, dígitos e sublinhados em inglês e não podem começar com um dígito. Verifique se a string fornecida é um nome de variável correto.
+
+## Desafio 28
+> Dada uma string, sua tarefa é substituir cada um de seus caracteres pelo próximo no alfabeto inglês; ou seja, substitua a por b, substitua b por c, etc (z seria substituído por a).
+
+## Desafio 29
+> Dadas duas células no tabuleiro de xadrez padrão, determine se elas têm a mesma cor ou não.
+
+## Desafio 30
+> Considere números inteiros de 0 a n - 1 escritos ao longo do círculo de tal forma que a distância entre quaisquer dois números vizinhos seja igual (observe que 0 e n - 1 também são vizinhos). Dados n e firstNumber, encontre o número que está escrito na posição radialmente oposta a firstNumber.
 
