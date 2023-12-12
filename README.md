@@ -1,5 +1,5 @@
-# Desafios JavaScript
- Resolvendo Problemas Lógicos com código 
+# SOBRE
+ Resolvendo Problemas e desafios Proposto por teste técnicos e páginas de preparação 
 
 
 ## Desafio 01
