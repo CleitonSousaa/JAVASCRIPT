@@ -92,5 +92,13 @@
 ## Desafio 30
 > Considere números inteiros de 0 a n - 1 escritos ao longo do círculo de tal forma que a distância entre quaisquer dois números vizinhos seja igual (observe que 0 e n - 1 também são vizinhos). Dados n e firstNumber, encontre o número que está escrito na posição radialmente oposta a firstNumber.
 
-## Desafio 30
+## Desafio 31
 > Você depositou uma quantia específica de dinheiro em sua conta bancária. A cada ano, seu saldo aumenta na mesma taxa de crescimento. Supondo que você não faça nenhum depósito adicional, descubra quanto tempo levaria para seu saldo ultrapassar um limite específico.
+
+## Desafio 31
+> Dada uma matriz ordenada de inteiros a, sua tarefa é determinar qual elemento de a está mais próximo de todos os outros valores de a. Em outras palavras, encontre o elemento x em a, que minimiza a seguinte soma:
+
+> abs(a[0] - x) + abs(a[1] - x) + ... + abs(a[a.comprimento - 1] - x)
+(onde abs denota o valor absoluto)
+
+> Se houver várias respostas possíveis, produza a menor delas.
