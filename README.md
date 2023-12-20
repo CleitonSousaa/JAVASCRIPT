@@ -109,4 +109,7 @@
 > Nota: você está apenas reorganizando a ordem das strings, não a ordem das letras dentro das strings!    
 
 ## Desafio 34  
-> Dada uma matriz de inteiros, remova cada k-ésimo elemento dela.  
+> Dada uma matriz de inteiros, remova cada k-ésimo elemento dela.
+
+## Desafio 35  
+> Encontre o dígito mais à esquerda que ocorre em uma determinada string.  
