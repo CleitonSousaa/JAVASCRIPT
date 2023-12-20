@@ -107,3 +107,6 @@
 > Dado um array de strings de comprimento igual, você gostaria de saber se é possível reorganizar a ordem dos elementos de tal forma que cada par consecutivo de strings difira em exatamente um caractere. Retorne verdadeiro se for possível e falso se não.   
 
 > Nota: você está apenas reorganizando a ordem das strings, não a ordem das letras dentro das strings!    
+
+## Desafio 34  
+> Dada uma matriz de inteiros, remova cada k-ésimo elemento dela.  
