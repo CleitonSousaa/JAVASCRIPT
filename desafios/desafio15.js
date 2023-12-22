@@ -23,17 +23,5 @@ function Solucao(picture) {
     return novonovo
 }
 
-//testes
-var entradas = [
-    ["abc", "ded"],
-    ["a"],
-    ["aa", "**", "zz"],
-    ["abcde", "fghij", "klmno", "pqrst", "uvwxy"],
-    ["wzy**"]
-    ]
-var saidas = [
-    ["*****", "*abc*", "*ded*", "*****"],
-    ["***", "*a*", "***"],
-    ["****", "*aa*", "****", "*zz*", "****"],
-    ["*******", "*abcde*", "*fghij*", "*klmno*","*pqrst*", "*uvwxy*", "*******"],
-    ["*******", "*wzy***", "*******"]]
+module.exports = {Solucao};
+

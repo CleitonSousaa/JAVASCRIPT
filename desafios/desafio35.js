@@ -10,6 +10,8 @@ function Solucao(inputString) {
     }
 }
 
+module.exports = {Solucao};
+
 //testes
 if(Solucao("var_1__Int") === 1)
     console.log('Passou')

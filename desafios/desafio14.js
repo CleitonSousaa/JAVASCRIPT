@@ -13,16 +13,5 @@ function Solucao(a) {
     return novo_array
 }
 
-//testes
-var entradas = [
-    [50, 60, 60, 45, 70],
-    [100, 50],
-    [80],
-    [100, 50, 50, 100],
-    [100, 51, 50, 100]]
-var saidas = [
-    [180, 105],
-    [100, 50],
-    [80, 0],
-    [150, 150],
-    [150, 151]]
+module.exports = {Solucao};
+
