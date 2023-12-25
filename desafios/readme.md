@@ -113,3 +113,6 @@
 
 - Desafio 35    
 > Encontre o dígito mais à esquerda que ocorre em uma determinada string.  
+
+- Desafio 36    
+> Dada uma string, encontre o número de caracteres diferentes nela.
