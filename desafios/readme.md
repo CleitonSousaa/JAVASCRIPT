@@ -116,3 +116,10 @@
 
 - Desafio 36    
 > Dada uma string, encontre o número de caracteres diferentes nela.
+
+- Desafio 37  
+> Dada uma matriz de inteiros, encontre a soma máxima possível de alguns de seus k elementos consecutivos.  
+- Desafio 38  
+> Cuidar de uma planta pode ser um trabalho árduo, mas como você cuida dela regularmente, você tem uma planta que cresce de forma consistente. A cada dia, sua altura aumenta em um valor fixo representado pelo número inteiro upSpeed. Mas devido à falta de luz solar, a altura da planta diminui a cada noite, em uma quantidade representada por downSpeed.  
+
+> Como você cultivou a planta a partir de uma semente, ela começou inicialmente na altura 0. Dado um número inteiro desejadoHeight, sua tarefa é descobrir quantos dias levará para a planta atingir essa altura.  
