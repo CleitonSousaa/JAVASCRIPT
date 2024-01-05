@@ -1,3 +1,5 @@
+// Verifique se todos os dígitos do número inteiro fornecido são pares.
+
 function Solucao(n) {
     var n1 = Array.from(String(n), Number)
     var verificacao = []
@@ -14,8 +16,3 @@ function Solucao(n) {
         return true
     }
 }
-
-module.exports = {Solucao};
-
-
-

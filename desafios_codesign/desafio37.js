@@ -1,3 +1,5 @@
+// Dada uma matriz de inteiros, encontre a soma máxima possível de alguns de seus k elementos consecutivos. 
+
 function Solucao(inputArray, k) {
     let s = 0;
     let m = 0;
@@ -13,5 +15,3 @@ function Solucao(inputArray, k) {
     }
     return m;
 }
-
-module.exports = {Solucao};

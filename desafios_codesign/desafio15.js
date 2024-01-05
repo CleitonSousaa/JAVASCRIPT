@@ -1,3 +1,5 @@
+// Dada uma matriz retangular de caracteres, adicione uma borda de asteriscos(*) a ela. 
+
 function Solucao(picture) {
     var novo = []
     for(let i = 0; i < picture.length; i++){
@@ -22,6 +24,3 @@ function Solucao(picture) {
     novonovo.push(novo[0])
     return novonovo
 }
-
-module.exports = {Solucao};
-

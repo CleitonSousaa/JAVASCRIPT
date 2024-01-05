@@ -1,3 +1,5 @@
+// Você recebe uma matriz de números inteiros. Em cada movimento você pode aumentar exatamente um de seus elementos em um. Encontre o número mínimo de movimentos necessários para obter uma sequência estritamente crescente da entrada.
+
 function Solucao(inputArray) {
     var movimentos = 0;
     
@@ -11,6 +13,3 @@ function Solucao(inputArray) {
     
     return movimentos;
 }
-
-module.exports = {Solucao};
-

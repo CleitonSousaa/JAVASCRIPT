@@ -1,3 +1,5 @@
+// Dada uma string, sua tarefa é substituir cada um de seus caracteres pelo próximo no alfabeto inglês; ou seja, substitua a por b, substitua b por c, etc (z seria substituído por a).
+
 function Solucao(inputString) {
     var alfabeto = "abcdefghijklmnopqrstuvwxyz"
     var arrayAlfabeto = alfabeto.split('')
@@ -18,7 +20,3 @@ function Solucao(inputString) {
     var arrayFinal = novoArrayInputString.join('')
     return arrayFinal
 }
-
-module.exports = {Solucao};
-
-

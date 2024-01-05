@@ -1,3 +1,5 @@
+// Dada a string, verifique se é um palíndromo. 
+
 function Solucao(inputString) {
     let str_reverse = inputString.split('').reverse()
     let str_revese_usavel = str_reverse.join('')
@@ -7,6 +9,3 @@ function Solucao(inputString) {
     else
         return false
 }
-
-module.exports = {Solucao};
-

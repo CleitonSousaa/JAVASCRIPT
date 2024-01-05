@@ -1,3 +1,5 @@
+// Os nomes de variáveis corretos consistem apenas em letras, dígitos e sublinhados em inglês e não podem começar com um dígito. Verifique se a string fornecida é um nome de variável correto.  
+
 function Solucao(name) {
     const palavrasReservadas = [
         'break', 'do', 'instanceof', 'typeof', 'case', 'else', 'new', 'var',
@@ -24,8 +26,3 @@ function Solucao(name) {
         
     }
 }
-
-module.exports = {Solucao};
-
-
-

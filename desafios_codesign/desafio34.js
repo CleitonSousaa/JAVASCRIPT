@@ -1,3 +1,5 @@
+// Dada uma matriz de inteiros, remova cada k-ésimo elemento dela.
+
 function Solucao(arr, k) {
     const result = [];
 
@@ -9,6 +11,3 @@ function Solucao(arr, k) {
 
   return result;
 }
-
-module.exports = {Solucao};
-

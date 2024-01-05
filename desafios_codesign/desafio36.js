@@ -1,3 +1,5 @@
+// Dada uma string, encontre o número de caracteres diferentes nela.
+
 function Solucao(s) {
     var stringProcessada = removeCaracteresRepetidos(s)
     return stringProcessada.length
@@ -16,5 +18,3 @@ function removeCaracteresRepetidos(str) {
 
   return result;
 }
-
-module.exports = {Solucao};

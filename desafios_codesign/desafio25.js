@@ -1,4 +1,4 @@
-//Dada a string, verifique se é um palíndromo.
+// Dado um array de inteiros, substitua todas as ocorrências de elemToReplace por replacementElem.
 
 function Solucao(inputArray, elemToReplace, substitutionElem) {
     const newArray = []
@@ -11,6 +11,3 @@ function Solucao(inputArray, elemToReplace, substitutionElem) {
     }
     return newArray
 }
-
-module.exports = {Solucao};
-

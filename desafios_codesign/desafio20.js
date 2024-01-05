@@ -1,3 +1,5 @@
+// Dado um array de inteiros, encontre a diferença absoluta máxima entre quaisquer dois de seus elementos adjacentes.  
+
 function Solucao(inputArray) {
     var maiorvalor = 0
     
@@ -8,6 +10,3 @@ function Solucao(inputArray) {
     }
     return maiorvalor;
 }
-
-module.exports = {Solucao};
-
